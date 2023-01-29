@@ -1,0 +1,16 @@
+curl https://mockend.com/shailrao/Test/resource/status
+
+curl https://mockend.com/shailrao/Test/resource/status \
+  -X GET \
+  -H "Content-Type: application/json" \
+  --data '{
+            "Resource_Group": "Created",
+            "Keyvault": "Created",
+            "vnet": "Created",
+            "ala": "Created",
+            "storage_accounts": "Creating",
+            "container_registry": "Creating",
+            "data_factory": "Created",
+            "eventhub": "Creating",
+            "databricks": "Created",
+        }'
